@@ -46,6 +46,12 @@
             <groupId>${project.groupId}</groupId>
             <artifactId>holographic-displays-plugin</artifactId>
             <version>${project.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.comphenix.protocol</groupId>
+                    <artifactId>ProtocolLib-API</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         
         <dependency>
@@ -81,6 +87,18 @@
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>holographic-displays-v1_10_R1</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>holographic-displays-v1_11_R1</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>holographic-displays-v1_12_R1</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>

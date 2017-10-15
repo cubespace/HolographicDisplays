@@ -102,7 +102,7 @@ public class ProtocolLibHookImpl implements ProtocolLibHook {
 					  
 				@Override
 				public void onPacketSending(PacketEvent event) {
-					
+                    
 					PacketContainer packet = event.getPacket();
                     
 					if (event.getPlayer() instanceof Factory) {
